@@ -1,0 +1,14 @@
+.input {
+  border-radius: 999px;
+  border: none;
+  height: 60px;
+  padding: 6px;
+  font-size: 14pt;
+  letter-spacing: 1.5px;
+  margin: 0 10px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #a683e3;
+}
