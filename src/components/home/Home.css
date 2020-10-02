@@ -1,0 +1,25 @@
+.home__mainText {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.home__inputBlock {
+  padding: 3rem;
+  margin: 0 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: white;
+  width: 100px;
+  color: #0070ba;
+  border: 1px solid #0070ba;
+  border-radius: 20px;
+  text-align: center;
+  padding: 13px 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 10px;
+}

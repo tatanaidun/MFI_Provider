@@ -1,7 +1,7 @@
 import React from "react";
 import "./Input.css";
 
-function Input(props) {
+const Input = (props) => {
   const { type, placeholder, onChangeHandler, value, label } = props;
   return (
     <div>
@@ -12,10 +12,10 @@ function Input(props) {
         placeholder={placeholder}
         onChange={onChangeHandler}
         value={value || ""}
-        required
+        required={true}
       />
     </div>
   );
-}
+};
 
 export default Input;
