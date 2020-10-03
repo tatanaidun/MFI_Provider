@@ -18,7 +18,7 @@ const App = () => {
         (data?.data?.length > 0 ? (
           <Result />
         ) : (
-          <div className="result__error">
+          <div className="result_error">
             <span>Data related to respective number is not available </span>
             <span>Please search with new scheme number</span>
           </div>
